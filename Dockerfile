@@ -14,7 +14,6 @@ WORKDIR /home
 RUN mkdir notebooks
 
 COPY ./requirements* /home
-COPY ./challenge-data-v2.csv /home
 COPY ./notebooks /home/notebooks
 
 # Installing the python packages

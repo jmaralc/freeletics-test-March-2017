@@ -1,4 +1,4 @@
-IMAGE_NAME=bw7-jma
+IMAGE_NAME=freeletics-jma
 
 build:
 	docker build -q -t $(IMAGE_NAME) .
